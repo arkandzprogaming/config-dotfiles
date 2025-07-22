@@ -19,6 +19,7 @@
       environment.systemPackages =
         [ pkgs.btop
 	  pkgs.fastfetch
+	  pkgs.iina
 	  pkgs.mkalias
 	  pkgs.neovim
 	  pkgs.the-unarchiver
