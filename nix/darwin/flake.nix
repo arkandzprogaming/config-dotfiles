@@ -22,7 +22,9 @@
 	  pkgs.iina
 	  pkgs.mkalias
 	  pkgs.neovim
+	  pkgs.skhd
 	  pkgs.the-unarchiver
+	  pkgs.yabai
         ];
 
       system.activationScripts.applications.text = let
