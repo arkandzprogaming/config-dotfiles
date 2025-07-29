@@ -23,6 +23,7 @@
 	  pkgs.mkalias
 	  pkgs.neovim
 	  pkgs.skhd
+	  pkgs.stow
 	  pkgs.the-unarchiver
 	  pkgs.yabai
         ];
