@@ -1,0 +1,83 @@
+#Nord theme but using the Tomorrow Night palette
+#by Appuchia <contact@appu.ltd>
+
+# Place this in ~/.config/btop/themes and choose it from btop config (pressing ESC)
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#100b1c"
+
+# Main text color
+theme[main_fg]="#c5c8c6"
+
+# Title color for boxes
+theme[title]="#c5c8c6"
+
+# Higlight color for keyboard shortcuts
+theme[hi_fg]="#99fbda"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#1a3a5e"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#c5c8c6"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#373b41"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#969896"
+
+# Cpu box outline color
+theme[cpu_box]="#99fbda"
+
+# Memory/disks box outline color
+theme[mem_box]="#99fbda"
+
+# Net up/down box outline color
+theme[net_box]="#99fbda"
+
+# Processes box outline color
+theme[proc_box]="#99fbda"
+
+# Box divider line and small boxes line color
+theme[div_line]="#fcf392"
+
+# Temperature graph colors
+theme[temp_start]="#ec69cf"
+theme[temp_mid]="#be94e4"
+theme[temp_end]="#a782f7"
+
+# CPU graph colors
+theme[cpu_start]="#ec69cf"
+theme[cpu_mid]="#eb60ad"
+theme[cpu_end]="#be94e4"
+
+# Mem/Disk free meter
+theme[free_start]="#ec69cf"
+theme[free_mid]="#eb60ad"
+theme[free_end]="#be94e4"
+
+# Mem/Disk cached meter
+theme[cached_start]="#ec69cf"
+theme[cached_mid]="#eb60ad"
+theme[cached_end]="#be94e4"
+
+# Mem/Disk available meter
+theme[available_start]="#ec69cf"
+theme[available_mid]="#eb60ad"
+theme[available_end]="#be94e4"
+
+# Mem/Disk used meter
+theme[used_start]="#ec69cf"
+theme[used_mid]="#eb60ad"
+theme[used_end]="#be94e4"
+
+# Download graph colors
+theme[download_start]="#ec69cf"
+theme[download_mid]="#eb60ad"
+theme[download_end]="#be94e4"
+
+# Upload graph colors
+theme[upload_start]="#ec69cf"
+theme[upload_mid]="#eb60ad"
+theme[upload_end]="#be94e4"
