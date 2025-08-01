@@ -1,14 +1,14 @@
 # focus window
-ctrl - h : yabai -m window --focus west
-ctrl - j : yabai -m window --focus south
-ctrl - k : yabai -m window --focus north
-ctrl - l : yabai -m window --focus east
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
 
 # swap managed window
-shift + ctrl - h : yabai -m window --swap west
-shift + ctrl - j : yabai -m window --swap south
-shift + ctrl - k : yabai -m window --swap north
-shift + ctrl - l : yabai -m window --swap east
+shift + alt - h : yabai -m window --swap west
+shift + alt - j : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - l : yabai -m window --swap east
 
 # move managed window
 shift + cmd - h : yabai -m window --warp west
@@ -36,7 +36,8 @@ cmd + alt - m     : yabai -m window --grid 1:1:0:0:1:1
 # cmd + alt - 1 : yabai -m space --focus 1
 
 # send window to desktop and follow focus
-# shift + cmd - z : yabai -m window --space next; yabai -m space --focus next
+shift + alt - . : yabai -m window --space next; yabai -m space --focus next
+shift + alt - , : yabai -m window --space previous; yabai -m space --focus previous
 # shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
 
 # focus monitor
