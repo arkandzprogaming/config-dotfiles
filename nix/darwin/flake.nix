@@ -20,13 +20,12 @@
         [ pkgs.btop
 	  pkgs.fastfetch
 	  pkgs.iina
+	  pkgs.kitty
 	  pkgs.mkalias
 	  pkgs.neovim
 	  #pkgs.oh-my-zsh # If I will install nix before omz or zsh on other machines
-	  #pkgs.skhd
 	  pkgs.stow
 	  pkgs.the-unarchiver
-	  #pkgs.yabai
         ];
 
       system.activationScripts.applications.text = let
