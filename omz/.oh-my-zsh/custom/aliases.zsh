@@ -18,8 +18,8 @@ alias gch="git checkout"
 
 alias gmot="git remote -v"
 alias gset="git reset --soft HEAD~1"
-alias gsto="git restore --staged"
 
+alias gstor="git restore --staged"
 alias gsetm="git reset --mixed HEAD~1"
 
 # Nix Aliases
