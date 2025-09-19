@@ -1,6 +1,3 @@
-# App Launcher
-alias vivaldi="/Applications/Vivaldi.app/Contents/MacOS/Vivaldi"
-
 # Git Aliases
 alias gs="git status"
 alias ga="git add"
@@ -13,6 +10,7 @@ alias gaa="git add --all"
 alias gss="git status -s"
 alias gcl="git clone"
 alias glg="git log --oneline --graph"
+alias gpo="git push origin"
 alias gpm="git push origin main"
 alias gch="git checkout"
 
