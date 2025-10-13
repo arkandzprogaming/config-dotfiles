@@ -1,3 +1,10 @@
+# Genreral Aliases
+alias ged="gnome-text-editor"
+alias libreoffice="libreoffice25.2"
+alias python="python3"
+alias arduino-ide="/home/butter/ProgramFiles/arduino-ide-2/arduino-ide_2.3.6_Linux_64bit.AppImage"
+alias aide="arduino-ide"
+
 # Git Aliases
 alias gs="git status"
 alias ga="git add"
