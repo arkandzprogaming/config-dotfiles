@@ -29,6 +29,7 @@ alias gset="git reset --soft HEAD~1"
 
 alias gstor="git restore"
 alias gsetm="git reset --mixed HEAD~1"
+alias gseth="git reset --hard"
 
 alias gstors="git restore --staged"
 
