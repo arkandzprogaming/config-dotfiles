@@ -108,6 +108,8 @@ source $ZSH/oh-my-zsh.sh
 alias zshconf="vim ~/.zshrc"
 alias ll="ls -alF"
 alias l="ls -CF"
+alias p="python"
+alias p3="python3"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
