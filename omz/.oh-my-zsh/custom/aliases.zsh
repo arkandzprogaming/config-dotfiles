@@ -37,8 +37,17 @@ alias gstors="git restore --staged"
 
 # Nix Aliases
 alias nfu="nix flake update"
-alias snfu="sudo nix flake update"
+alias nph="nix profile history"
+alias npl="nix profile list"
+alias npr="nix profile rollback"
+alias npu="nix profile upgrade"
 alias nsp="nix search nixpkgs"
 alias nsh="nix-shell -p"
+
+alias nprt="nix profile rollback --to"
+alias npua="nix profile upgrade --all"
+alias snfu="sudo nix flake update"
+
+# Darwin Nix Aliases
 alias das="darwin-rebuild switch"
 alias sdas="sudo darwin-rebuild switch"

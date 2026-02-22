@@ -119,36 +119,18 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
  
-source ~/iic-init.sh
-source /tools/Xilinx/Vivado/2022.2/settings64.sh
+#source ~/iic-init.sh
+#source /tools/Xilinx/Vivado/2022.2/settings64.sh
 
 # KLAYOUT settings	  ##
-export PDK_ROOT=/home/butter/pdk/
-export PDK=sky130A
-export KLAYOUT_PATH=$PDK_ROOT/$PDK/libs.tech/klayout
-export KLAYOUT_PYTHONPATH=$PDK_ROOT/$PDK/libs.tech/klayout/pymacros
+#export PDK_ROOT=/home/butter/pdk/
+#export PDK=sky130A
+#export KLAYOUT_PATH=$PDK_ROOT/$PDK/libs.tech/klayout
+#export KLAYOUT_PYTHONPATH=$PDK_ROOT/$PDK/libs.tech/klayout/pymacros
 # END of KLAYOUT settings ##
 
 # OpenRAM settings	  ##
-export OPENRAM_HOME="/home/butter/Documents/open-source/OpenRAM/compiler"
-export OPENRAM_TECH="/home/butter/Documents/open-source/OpenRAM/technology"
-export PYTHONPATH=$OPENRAM_HOME
+#export OPENRAM_HOME="/home/butter/Documents/open-source/OpenRAM/compiler"
+#export OPENRAM_TECH="/home/butter/Documents/open-source/OpenRAM/technology"
+#export PYTHONPATH=$OPENRAM_HOME
 # END of OpenRAM settings ##
-
-
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/butter/ProgramFiles/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/butter/ProgramFiles/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/butter/ProgramFiles/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/butter/ProgramFiles/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
