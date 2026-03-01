@@ -7,7 +7,7 @@ alias p="python"
 alias p3="python3"
 alias python="python3"
 
-alias sptop = "sudo ~/.nix-profile/bin/powertop"
+alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
 
 # Git Aliases
 alias gs="git status"
