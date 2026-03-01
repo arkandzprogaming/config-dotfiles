@@ -1,9 +1,13 @@
 # Genreral Aliases
+alias aide="arduino-ide"
+alias arduino-ide="/home/butter/ProgramFiles/arduino-ide-2/arduino-ide_2*.AppImage"
 alias ged="gnome-text-editor"
 alias libreoffice="libreoffice25.2"
+alias p="python"
+alias p3="python3"
 alias python="python3"
-alias arduino-ide="/home/butter/ProgramFiles/arduino-ide-2/arduino-ide_2.3.6_Linux_64bit.AppImage"
-alias aide="arduino-ide"
+
+alias sptop = "sudo ~/.nix-profile/bin/powertop"
 
 # Git Aliases
 alias gs="git status"
@@ -47,6 +51,8 @@ alias nsh="nix-shell -p"
 alias nprt="nix profile rollback --to"
 alias npua="nix profile upgrade --all"
 alias snfu="sudo nix flake update"
+
+alias nrnvd="nix run nixpkgs#nvd -- diff /nix/var/nix/profiles/per-user/root/profile-1-link /nix/var/nix/profiles/per-user/root/profile-2-link"
 
 # Darwin Nix Aliases
 alias das="darwin-rebuild switch"
