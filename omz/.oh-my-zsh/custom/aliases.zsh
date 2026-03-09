@@ -20,6 +20,7 @@ alias gl="git log"
 
 alias gaa="git add --all"
 alias gdh="git diff HEAD~"
+alias gds="git diff --staged"
 alias gss="git status -s"
 alias gcl="git clone"
 alias glo="git log --oneline"
@@ -27,6 +28,7 @@ alias gpo="git push origin"
 alias gpm="git push origin main"
 alias gch="git checkout"
 
+alias gchb="git checkout -b"
 alias glog="git log --oneline --graph"
 alias gmot="git remote -v"
 
