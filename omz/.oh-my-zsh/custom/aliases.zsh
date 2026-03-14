@@ -16,6 +16,7 @@ alias chrome="flatpak run com.google.Chrome"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice"
 alias soffice="libreoffice"
 alias proton-pass="flatpak run me.proton.Pass"
+alias xournalpp="flatpak run com.github.xournalpp.xournalpp"
 
 # Git Aliases
 alias gs="git status"
