@@ -9,6 +9,14 @@ alias python="python3"
 
 alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
 
+# Flatpak Aliases
+alias vivaldi="flatpak run com.vivaldi.Vivaldi"
+alias discord="flatpak run com.discordapp.Discord"
+alias chrome="flatpak run com.google.Chrome"
+alias libreoffice="flatpak run org.libreoffice.LibreOffice"
+alias soffice="libreoffice"
+alias proton-pass="flatpak run me.proton.Pass"
+
 # Git Aliases
 alias gs="git status"
 alias ga="git add"
