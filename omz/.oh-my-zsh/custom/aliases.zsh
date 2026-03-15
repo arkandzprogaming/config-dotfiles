@@ -9,6 +9,9 @@ alias python="python3"
 
 alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
 
+# Ubuntu Battery Info Dump
+alias batinfo="echo \"-- Battery Information --\" && echo \"Status: \" && cat /sys/class/power_supply/BAT0/status && echo \"Current Capacity: \" && cat /sys/class/power_supply/BAT0/energy_now && echo \"Full Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full && echo \"Design Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full_design && echo \"Cycle Count: \" && cat /sys/class/power_supply/BAT0/cycle_count"
+
 # Flatpak Aliases
 alias vivaldi="flatpak run com.vivaldi.Vivaldi"
 alias discord="flatpak run com.discordapp.Discord"
