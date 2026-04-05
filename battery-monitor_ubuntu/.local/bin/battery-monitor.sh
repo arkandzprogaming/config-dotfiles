@@ -15,6 +15,10 @@ while true; do
         if [ "$NOTIFIED" -eq 0 ]; then
             # Send the desktop notification
             notify-send "Battery Limit Reached" "Battery is at ${CAPACITY}%. Unplug to preserve battery life." --icon=battery-full --urgency=critical
+
+            # Play system alert sound
+            pw-play /usr/share/sounds/freedesktop/stereo/message-new-instant.oga
+
             NOTIFIED=1
         fi
     elif [ "$STATUS" = "Discharging" ]; then
