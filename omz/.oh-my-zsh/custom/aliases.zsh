@@ -60,6 +60,7 @@ alias gseth="git reset --hard"
 alias gstors="git restore --staged"
 
 # Nix Aliases
+alias ncg="nix-collect-garbage -d"
 alias nfu="nix flake update"
 alias nph="nix profile history"
 alias npl="nix profile list"
