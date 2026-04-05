@@ -132,3 +132,5 @@ export PATH="/usr/local/sbin:$PATH"
 #export OPENRAM_TECH="/home/butter/Documents/open-source/OpenRAM/technology"
 #export PYTHONPATH=$OPENRAM_HOME
 # END of OpenRAM settings ##
+
+eval "$(direnv hook zsh)"
