@@ -13,12 +13,15 @@ alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
 alias batinfo="echo \"-- Battery Information --\" && echo \"Status: \" && cat /sys/class/power_supply/BAT0/status && echo \"Current Capacity: \" && cat /sys/class/power_supply/BAT0/energy_now && echo \"Full Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full && echo \"Design Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full_design && echo \"Cycle Count: \" && cat /sys/class/power_supply/BAT0/cycle_count"
 
 # Flatpak Aliases
-alias vivaldi="flatpak run com.vivaldi.Vivaldi"
-alias discord="flatpak run com.discordapp.Discord"
 alias chrome="flatpak run com.google.Chrome"
+alias code="flatpak run com.visualstudio.code"
+alias discord="flatpak run com.discordapp.Discord"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice"
-alias soffice="libreoffice"
+alias obs="flatpak run com.obsproject.Studio"
 alias proton-pass="flatpak run me.proton.Pass"
+alias soffice="libreoffice"
+alias vivaldi="flatpak run com.vivaldi.Vivaldi"
+alias vlc="flatpak run org.videolan.VLC"
 alias xournalpp="flatpak run com.github.xournalpp.xournalpp"
 
 # Git Aliases
