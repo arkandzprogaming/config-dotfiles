@@ -2,15 +2,18 @@
 alias aide="arduino-ide"
 alias arduino-ide="/home/butter/ProgramFiles/arduino-ide-2/arduino-ide_2*.AppImage"
 alias ged="gnome-text-editor"
-alias libreoffice="libreoffice25.2"
-alias p="python"
+alias p="python3"
 alias p3="python3"
-alias python="python3"
 
 alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
 
 # Ubuntu Battery Info Dump
 alias batinfo="echo \"-- Battery Information --\" && echo \"Status: \" && cat /sys/class/power_supply/BAT0/status && echo \"Current Capacity: \" && cat /sys/class/power_supply/BAT0/energy_now && echo \"Full Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full && echo \"Design Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full_design && echo \"Cycle Count: \" && cat /sys/class/power_supply/BAT0/cycle_count"
+
+# ESP-IDF Aliases
+alias espidf=". $HOME/esp-env/esp-idf/export.sh"
+alias getidf=". $HOME/esp-env/esp-idf/export.sh"
+alias idfhere=". $HOME/esp-env/esp-idf/export.sh"
 
 # Flatpak Aliases
 alias chrome="flatpak run com.google.Chrome"
