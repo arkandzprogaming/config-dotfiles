@@ -11,7 +11,8 @@ alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
 alias batinfo="echo \"-- Battery Information --\" && echo \"Status: \" && cat /sys/class/power_supply/BAT0/status && echo \"Current Capacity: \" && cat /sys/class/power_supply/BAT0/energy_now && echo \"Full Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full && echo \"Design Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full_design && echo \"Cycle Count: \" && cat /sys/class/power_supply/BAT0/cycle_count"
 
 # ESP-IDF Aliases
-alias espidf=". $HOME/esp-env/esp-idf/export.sh"
+alias idf="idf.py"
+
 alias getidf=". $HOME/esp-env/esp-idf/export.sh"
 alias idfhere=". $HOME/esp-env/esp-idf/export.sh"
 
