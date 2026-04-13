@@ -19,14 +19,17 @@ alias idfhere=". $HOME/esp-env/esp-idf/export.sh"
 # Flatpak Aliases
 alias chrome="flatpak run com.google.Chrome"
 alias code="flatpak run com.visualstudio.code"
+alias curtail="flatpak run com.github.huluti.Curtail"
 alias discord="flatpak run com.discordapp.Discord"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice"
 alias obs="flatpak run com.obsproject.Studio"
 alias proton-pass="flatpak run me.proton.Pass"
+alias shotcut="flatpak run org.shotcut.Shotcut"
 alias soffice="libreoffice"
 alias vivaldi="flatpak run com.vivaldi.Vivaldi"
 alias vlc="flatpak run org.videolan.VLC"
 alias xournalpp="flatpak run com.github.xournalpp.xournalpp"
+alias zoom="flatpak run us.zoom.Zoom"
 
 # Git Aliases
 alias gs="git status"
