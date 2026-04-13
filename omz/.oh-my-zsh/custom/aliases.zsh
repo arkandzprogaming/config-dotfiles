@@ -1,7 +1,6 @@
 # Genreral Aliases
 alias aide="arduino-ide"
 alias arduino-ide="/home/butter/ProgramFiles/arduino-ide-2/arduino-ide_2*.AppImage"
-alias ged="gnome-text-editor"
 alias p="python3"
 alias p3="python3"
 
@@ -21,7 +20,7 @@ alias chrome="flatpak run com.google.Chrome"
 alias code="flatpak run com.visualstudio.code"
 alias curtail="flatpak run com.github.huluti.Curtail"
 alias discord="flatpak run com.discordapp.Discord"
-alias gnome-text-editor="flatpak run org.gnome.TextEditor"
+alias ged="flatpak run org.gnome.TextEditor"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice"
 alias obs="flatpak run com.obsproject.Studio"
 alias proton-pass="flatpak run me.proton.Pass"
