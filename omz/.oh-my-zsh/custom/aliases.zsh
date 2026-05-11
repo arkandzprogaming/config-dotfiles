@@ -39,6 +39,7 @@ alias gd="git diff"
 alias gf="git fetch"
 alias gp="git push"
 alias gl="git log"
+alias gv="git revert"
 
 alias gaa="git add --all"
 alias gdh="git diff HEAD~"
