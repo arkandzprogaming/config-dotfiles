@@ -17,7 +17,6 @@ alias idfhere=". $HOME/esp-env/esp-idf/export.sh"
 
 # Flatpak Aliases
 alias chrome="flatpak run com.google.Chrome"
-alias code="flatpak run com.visualstudio.code"
 alias curtail="flatpak run com.github.huluti.Curtail"
 alias discord="flatpak run com.discordapp.Discord"
 alias ged="flatpak run org.gnome.TextEditor"
