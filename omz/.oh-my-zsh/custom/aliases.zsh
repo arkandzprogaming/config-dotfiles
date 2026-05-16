@@ -1,10 +1,10 @@
 # Genreral Aliases
 alias aide="arduino-ide"
-alias arduino-ide="/home/butter/ProgramFiles/arduino-ide-2/arduino-ide_2*.AppImage"
+alias arduino-ide="$HOME/AppImages/arduino-ide-2/arduino-ide_2*.AppImage"
 alias p="python3"
 alias p3="python3"
 
-alias sptop="sudo /home/butter/.nix-profile/bin/powertop"
+alias sptop="sudo $HOME/.nix-profile/bin/powertop"
 
 # Ubuntu Battery Info Dump
 alias batinfo="echo \"-- Battery Information --\" && echo \"Status: \" && cat /sys/class/power_supply/BAT0/status && echo \"Current Capacity: \" && cat /sys/class/power_supply/BAT0/energy_now && echo \"Full Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full && echo \"Design Capacity: \" && cat /sys/class/power_supply/BAT0/energy_full_design && echo \"Cycle Count: \" && cat /sys/class/power_supply/BAT0/cycle_count"
@@ -16,13 +16,11 @@ alias getidf=". $HOME/esp-env/esp-idf/export.sh"
 alias idfhere=". $HOME/esp-env/esp-idf/export.sh"
 
 # Flatpak Aliases
-alias chrome="flatpak run com.google.Chrome"
 alias curtail="flatpak run com.github.huluti.Curtail"
 alias discord="flatpak run com.discordapp.Discord"
 alias ged="flatpak run org.gnome.gedit"
 alias libreoffice="flatpak run org.libreoffice.LibreOffice"
 alias obs="flatpak run com.obsproject.Studio"
-alias proton-pass="flatpak run me.proton.Pass"
 alias shotcut="flatpak run org.shotcut.Shotcut"
 alias soffice="libreoffice"
 alias vivaldi="flatpak run com.vivaldi.Vivaldi"
