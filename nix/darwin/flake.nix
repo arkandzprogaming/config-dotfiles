@@ -17,15 +17,18 @@
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
-        [ pkgs.btop
+        [ 
+      pkgs.btop
+      pkgs.ccache
 	  pkgs.fastfetch
 	  pkgs.iina
 	  pkgs.kitty
 	  pkgs.mkalias
 	  pkgs.neovim
-	  #pkgs.oh-my-zsh # If I will install nix before omz or zsh on other machines
+      pkgs.speedtest-cli
 	  pkgs.stow
 	  pkgs.the-unarchiver
+      pkgs.vscode
         ];
 
       system.activationScripts.applications.text = let
