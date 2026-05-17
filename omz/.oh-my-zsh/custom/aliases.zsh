@@ -13,7 +13,7 @@ alias batinfo="echo \"-- Battery Information --\" && echo \"Status: \" && cat /s
 alias idf="idf.py"
 
 alias getidf=". $HOME/esp-env/esp-idf/export.sh"
-alias idfhere=". $HOME/esp-env/esp-idf/export.sh"
+alias idfhere=". $HOME/esp-env/esp-idf/export.sh && export IDF_CCACHE_ENABLE=1"
 
 # Flatpak Aliases
 alias curtail="flatpak run com.github.huluti.Curtail"
