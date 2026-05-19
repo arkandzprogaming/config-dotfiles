@@ -14,38 +14,51 @@
   },
 
   "display": {
-    "separator": " ▶ ",
+    "separator": " ⤍ ",
     "color": {
       "keys": "38;5;9",       // Forces Keys to use kitty's color9
       "output": "38;5;2",     // Forces Info to use kitty's color2
-      "separator": "38;5;16"   // Forces ▶ to use kitty's color7
+      "separator": "38;5;16"  // Forces ▶ to use kitty's color16
     }
   },
 
   "modules": [
     {
       "type": "title",
-      // Overrides the red Ubuntu default and applies 16 -> 8 -> 16
-      "format": "\u001b[38;5;16m{1}\u001b[38;5;8m@\u001b[38;5;16m{2}\u001b[0m"
+      // Overrides the red Ubuntu default and applies 11 -> 13 -> 11
+      "format": "\u001b[1;38;5;11m{1} \u001b[38;5;13m@ \u001b[1;38;5;11m{2}\u001b[0m"
     },
+    "break",
     {
-      "type": "separator",
-      "string": "♠",
-      "outputColor": "38;5;16" // Forces the underline to use kitty's color16
+      "type": "custom",
+      "format": "\u001b[38;5;16m╭ absurdly inherent ───────────────────────────────────────────────────╮\u001b[0m"
     },
+    "break",
     {
       "type": "os",
-      "key": "OS",
+      "key": "OS      ",
       "format": "{2}"
     },
     {
       "type": "host",
-      "key": "Host"
+      "key": "Machine ",
+      "format": "{1}"
     },
     {
       "type": "uptime",
-      "key": "Uptime"
+      "key": "Uptime  "
     },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;16m╰───────────────────────────────────────────────────────────────────────────╯\u001b[0m"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;16m╭ within my authority ───────────────────────────────────────────────────╮\u001b[0m"
+    },
+    "break",
     {
       "type": "packages",
       "key": "Packages",
@@ -53,7 +66,7 @@
     },
     {
       "type": "shell",
-      "key": "Shell",
+      "key": "Shell   ",
       "format": "{1}"
     },
     {
@@ -62,7 +75,7 @@
     },
     {
       "type": "memory",
-      "key": "Memory",
+      "key": "Memory  ",
       "format": "{1} / {2}"
     },
     {
@@ -70,6 +83,20 @@
       "key": "Local IP",
       "showIpv6": false,
       "showMac": false
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;16m╰───────────────────────────────────────────────────────────────────────────╯\u001b[0m"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[1;3;38;5;11mlet Lain find \u001b[1;3;4;38;5;11mlove\u001b[0m \u001b[1;3;38;5;11min her existence...\u001b[0m"
+    },
+    {
+        "type": "colors",
+        "symbol": "circle"
     }
   ]
 }
