@@ -36,12 +36,12 @@
     "break",
     {
       "type": "os",
-      "key": "OS      ",
+      "key": "Soul    ",
       "format": "{2}"
     },
     {
       "type": "host",
-      "key": "Machine ",
+      "key": "Body    ",
       "format": "{1}"
     },
     {
