@@ -75,6 +75,7 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 web-search
 history-substring-search
+docker
 )
 
 source $ZSH/oh-my-zsh.sh
