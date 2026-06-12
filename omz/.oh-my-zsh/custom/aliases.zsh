@@ -25,6 +25,7 @@ alias shotcut="flatpak run org.shotcut.Shotcut"
 alias soffice="libreoffice"
 alias vlc="flatpak run org.videolan.VLC"
 alias xournalpp="flatpak run com.github.xournalpp.xournalpp"
+alias zed="flatpak run dev.zed.Zed"
 alias zoom="flatpak run us.zoom.Zoom"
 
 # Git Aliases
