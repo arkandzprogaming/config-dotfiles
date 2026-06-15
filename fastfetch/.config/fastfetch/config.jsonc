@@ -3,7 +3,7 @@
   
   "logo": {
     "type": "file",
-    "source": "/home/butter/.config/neofetch/ascii-art-2.txt",
+    "source": "/home/butter/.config/fastfetch/ascii-art-2.txt",
     "color": {
       "1": "12",
       "2": "11"
