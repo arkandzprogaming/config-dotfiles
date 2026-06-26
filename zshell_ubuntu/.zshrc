@@ -118,20 +118,21 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
  
-#source ~/iic-init.sh
-#source /tools/Xilinx/Vivado/2022.2/settings64.sh
+# Vivado settings	        ##
+source /home/butter/Xilinx/2026.1/Vivado/settings64.sh
+# END of Vivado settings    ##
 
-# KLAYOUT settings	  ##
+# KLAYOUT settings	        ##
 #export PDK_ROOT=/home/butter/pdk/
 #export PDK=sky130A
 #export KLAYOUT_PATH=$PDK_ROOT/$PDK/libs.tech/klayout
 #export KLAYOUT_PYTHONPATH=$PDK_ROOT/$PDK/libs.tech/klayout/pymacros
-# END of KLAYOUT settings ##
+# END of KLAYOUT settings   ##
 
-# OpenRAM settings	  ##
+# OpenRAM settings	        ##
 #export OPENRAM_HOME="/home/butter/Documents/open-source/OpenRAM/compiler"
 #export OPENRAM_TECH="/home/butter/Documents/open-source/OpenRAM/technology"
 #export PYTHONPATH=$OPENRAM_HOME
-# END of OpenRAM settings ##
+# END of OpenRAM settings   ##
 
 eval "$(direnv hook zsh)"
