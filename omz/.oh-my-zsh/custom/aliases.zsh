@@ -103,7 +103,7 @@ alias tsen="tailscale exit-node"
 
 alias tsenl="tailscale exit-node --list"
 alias tsfcp="tailscale file cp"
-alias tdrop="tailscale file get ~/Taildrop"
+alias tdrop="mkdir -p ~/Taildrop 2>> /dev/null && tailscale file get ~/Taildrop && cd ~/Taildrop"
 alias tsfun="tailscale funnel"
 alias tserv="tailscale serve"
 
