@@ -87,3 +87,23 @@ alias snfu="sudo nix flake update"
 # Darwin Nix Aliases
 alias das="darwin-rebuild switch"
 alias sdas="sudo darwin-rebuild switch"
+
+# Tailscale Aliases
+alias tsu="tailscale up"
+alias tsd="tailscale down"
+alias tss="tailscale set"
+alias tsf="tailscale file"
+
+alias tssw="tailscale switch"
+alias tsip="tailscale ip"
+alias tspi="tailscale ping"
+alias tssh="tailscale ssh"
+alias tsfg="tailscale file get"
+alias tsen="tailscale exit-node"
+
+alias tsenl="tailscale exit-node --list"
+alias tsfcp="tailscale file cp"
+alias tdrop="tailscale file get ~/Taildrop"
+alias tsfun="tailscale funnel"
+alias tserv="tailscale serve"
+
