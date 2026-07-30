@@ -48,6 +48,7 @@ alias glo="git log --oneline"
 alias gpo="git push origin"
 alias gpm="git push origin main"
 alias gch="git checkout"
+alias gsw="git switch"
 
 alias gchb="git checkout -b"
 alias glog="git log --oneline --graph"
