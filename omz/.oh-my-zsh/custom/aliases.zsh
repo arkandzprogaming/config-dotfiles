@@ -91,11 +91,14 @@ alias das="darwin-rebuild switch"
 alias sdas="sudo darwin-rebuild switch"
 
 # Tailscale Aliases
+alias ts="tailscale"
+
 alias tsu="tailscale up"
 alias tsd="tailscale down"
 alias tss="tailscale set"
 alias tsf="tailscale file"
 
+alias tsst="tailscale status"
 alias tssw="tailscale switch"
 alias tsip="tailscale ip"
 alias tspi="tailscale ping"
@@ -103,6 +106,7 @@ alias tssh="tailscale ssh"
 alias tsfg="tailscale file get"
 alias tsen="tailscale exit-node"
 
+alias tsdns="taiscale dns"
 alias tsenl="tailscale exit-node --list"
 alias tsfcp="tailscale file cp"
 alias tdrop="mkdir -p ~/Taildrop 2>> /dev/null && tailscale file get ~/Taildrop && cd ~/Taildrop"
