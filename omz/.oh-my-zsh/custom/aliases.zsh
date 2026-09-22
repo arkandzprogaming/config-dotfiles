@@ -93,11 +93,10 @@ alias sdas="sudo darwin-rebuild switch"
 # Tailscale Aliases
 alias ts="tailscale"
 
-alias tsu="tailscale up"
-alias tsd="tailscale down"
 alias tss="tailscale set"
 alias tsf="tailscale file"
 
+alias tsup="tailscale up"
 alias tsst="tailscale status"
 alias tssw="tailscale switch"
 alias tsip="tailscale ip"
@@ -113,3 +112,4 @@ alias tdrop="mkdir -p ~/Taildrop 2>> /dev/null && tailscale file get ~/Taildrop 
 alias tsfun="tailscale funnel"
 alias tserv="tailscale serve"
 
+alias tsdown="tailscale down"
