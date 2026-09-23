@@ -93,9 +93,9 @@ alias sdas="sudo darwin-rebuild switch"
 # Tailscale Aliases
 alias ts="tailscale"
 
-alias tss="tailscale set"
 alias tsf="tailscale file"
 
+alias tset="tailscale set"
 alias tsup="tailscale up"
 alias tsst="tailscale status"
 alias tssw="tailscale switch"
