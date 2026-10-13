@@ -1,0 +1,2 @@
+# Allow Nix to read the host GPU drivers
+use flake . --impure
